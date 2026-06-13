@@ -1,8 +1,8 @@
 import React from "react";
 import "./Alert_Banner.scss";
-import Notification from "../../../assets/Home-tiles/SaazNight.png";
+import Notification from "../../../assets/Home-tiles/SaazNight.jpg";
 import NotificationQr from "../../../assets/Home-tiles/Home-Nofification-Banner/Qr.jpg";
-import Ticket from "../../../assets/Home-tiles/Home-Nofification-Banner/ticket.jpg";
+import Ticket from "../../../assets/Home-tiles/Home-Nofification-Banner/ticket.png";
 import SaazFabric from "../../../assets/Merch/Saaz-Fabric.png"
 import TilePopup from "../Drawer/Drawer";
 import { useState, useEffect } from "react";
@@ -18,28 +18,28 @@ function AlertBanner() {
     console.log(clickedTiles["notification"]);
   }, [clickedTiles]);
   const notification = {
-    title: "Saaz Night '25",
-    date: "7",
-    month: "April",
-    year: "2025",
-    fullDate: "7 April 2025",
+    title: "Saaz Night '26",
+    date: "29",
+    month: "March",
+    year: "2026",
+    fullDate: "29 March 2026",
     eventGallary: "Saaz Night '24",
     eventBulletins: [
-     "Duet Competetion",
-     "Sufi",
+     "Duet Competition",
+     "Metal",
      "Qawwali",
      "Bollywood",
      "Rock",
-     "Metal"
+     "Pop"
     ],
-    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5_PcHI7wfTLpsxcUg8-7odOYk3yJj98tohs8dBxwWus_iDg/viewform?usp=sharing"
+    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdO5--JX2t7Ld_feNGswaCe1RVwnUQdxhRXp6MH7CZXO6Qd1w/viewform"
   };
   return (
     <div className="Alert_banner"> 
       <div className="horizontal-bar">
         <div className="pc-Qr">
           <img src={NotificationQr} alt="" />
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5_PcHI7wfTLpsxcUg8-7odOYk3yJj98tohs8dBxwWus_iDg/viewform?usp=sharing" className="register">Register</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdO5--JX2t7Ld_feNGswaCe1RVwnUQdxhRXp6MH7CZXO6Qd1w/viewform" className="register">Register</a>
         </div>
         <div className="Bulletin">
           <div className="title">Prospects</div>
