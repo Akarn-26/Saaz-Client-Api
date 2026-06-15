@@ -32,14 +32,14 @@ function AlertBanner() {
      "Rock",
      "Pop"
     ],
-    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdO5--JX2t7Ld_feNGswaCe1RVwnUQdxhRXp6MH7CZXO6Qd1w/viewform"
+    registerLink: ""
   };
   return (
     <div className="Alert_banner"> 
       <div className="horizontal-bar">
         <div className="pc-Qr">
           <img src={NotificationQr} alt="" />
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdO5--JX2t7Ld_feNGswaCe1RVwnUQdxhRXp6MH7CZXO6Qd1w/viewform" className="register">Register</a>
+          <a href="" className="register">Register</a>
         </div>
         <div className="Bulletin">
           <div className="title">Prospects</div>
