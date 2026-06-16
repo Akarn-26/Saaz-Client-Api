@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import independenceDay from "../../../assets/DrawerImages/independenceDay.jpg";
 import { useEffect, useRef } from "react";
 import orientation from "../../../assets/Home-tiles/orientation.jpg";
-import Orientation24 from "../../../assets/Home-tiles/Orientation24.jpg";
+import Orientation24 from "../../../assets/Home-tiles/Orientation24.png";
 import Orientation242 from "../../../assets/Home-tiles/Orientation24-2.jpg";
 import Orientation26 from "../../../assets/Home-tiles/Orientation26.jpg"
 import RepublicDay26 from "../../../assets/Home-tiles/RepublicDay26.png";
