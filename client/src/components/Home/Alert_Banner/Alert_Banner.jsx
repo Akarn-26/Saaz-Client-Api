@@ -2,7 +2,7 @@ import React from "react";
 import "./Alert_Banner.scss";
 import Notification from "../../../assets/Home-tiles/SaazNight.jpg";
 import NotificationQr from "../../../assets/Home-tiles/Home-Nofification-Banner/Qr.jpg";
-import Ticket from "../../../assets/Home-tiles/Home-Nofification-Banner/ticket.png";
+import Ticket from "../../../assets/Home-tiles/Home-Nofification-Banner/SaazNight.jpg";
 import SaazFabric from "../../../assets/Merch/Saaz-Fabric.png"
 import TilePopup from "../Drawer/Drawer";
 import { useState, useEffect } from "react";
@@ -18,28 +18,28 @@ function AlertBanner() {
     console.log(clickedTiles["notification"]);
   }, [clickedTiles]);
   const notification = {
-    title: "Saaz Night '26",
-    date: "29",
-    month: "March",
+    title: "Ecstasy '26",
+    date: "08",
+    month: "October",
     year: "2026",
-    fullDate: "29 March 2026",
-    eventGallary: "Saaz Night '24",
+    fullDate: "08 October 2026",
+    eventGallary: "Ecstasy '26",
     eventBulletins: [
-     "Duet Competition",
+     "Band Competition",
      "Metal",
-     "Qawwali",
+     "Classical Fusion",
      "Bollywood",
      "Rock",
      "Pop"
     ],
-    registerLink: ""
+    registerLink: "https://forms.gle/LTcr2LuSFzfRaG2A6"
   };
   return (
     <div className="Alert_banner"> 
       <div className="horizontal-bar">
         <div className="pc-Qr">
           <img src={NotificationQr} alt="" />
-          <a href="" className="register">Register</a>
+          <a href="https://forms.gle/LTcr2LuSFzfRaG2A6" className="register">Register</a>
         </div>
         <div className="Bulletin">
           <div className="title">Prospects</div>

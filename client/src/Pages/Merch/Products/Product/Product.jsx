@@ -18,7 +18,7 @@ function Product({product}) {
                 {product.price}
             </div>
             <a 
-                href="https://forms.gle/your-google-form-id" 
+                href="https://forms.gle/TXZsNTqPcdYRDNtx7" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className={product.instock ? "buy-button" : "SoldOut"}
